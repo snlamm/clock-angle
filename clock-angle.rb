@@ -12,7 +12,7 @@ def timeAngle
   valid_time = true
   until valid_time == false
     puts "Please enter a time (ex. 3:30):"
-  # split entry into separate items and join as hour and minute hands
+  # split entry into an array of individual charachters and join as hour and minute hand integers
     time = gets.chomp.split("")
       if time.size == 5 && time[2] == ":" 
       hour_hand = time[0..1].join.to_i
