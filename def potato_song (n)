@@ -1,0 +1,16 @@
+def potato_song (n)
+    counter = 1
+    until counter == n
+        if n == 4
+            puts " "
+        else
+            puts "#{counter} potato"
+        end
+        counter += 1
+    end
+    puts "More!"
+end
+    
+    
+potato_song(7)    
+    
