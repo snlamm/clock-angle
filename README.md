@@ -1,5 +1,5 @@
 # clock-angle
-#puts the angle between the two hands of clock for any given time. 
+#puts the angle between the two hands of a clock for any given time. 
 
 This code takes in an argument of a string (such as '4:30'), and converts the hour and minute
 parts of it into integers. The until loop prompts for a response until a valid one is given. 
