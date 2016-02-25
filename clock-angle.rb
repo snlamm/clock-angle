@@ -1,11 +1,10 @@
 
-# This method takes in an argument of a string (such as '4:30'), converts the hour and minute
+# This method takes in an argument of a string (such as '4:30'), and converts the hour and minute
 # parts of it into integers. The until loop prompts for a response until a valid one is given. 
-# Invalid responses are detected if input is not in the format mentioned above. This
-# will catch all errors that are not in the proper format.
-# The valid hour and minute integers are passed then into variables that recongfigures them into
-# angles. Finally, the angles are subtracted from one another (which from which depends)
-# on size, and the results are put on the terminal.
+# Valid hour and minute integers are then passed into variables that recongfigure them into
+# angles. Finally, the angles are subtracted from one another (depending on which is larger)
+# based on size. The results are put on the terminal. 
+#Have a good time! 
 
 
 def timeAngle
